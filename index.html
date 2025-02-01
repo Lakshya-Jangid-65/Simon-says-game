@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Simon Says Game</title>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen bg-gray-300"
+  >
+    <h1 class="text-4xl font-bold text-center mb-2">Simon Says Game</h1>
+    <h3 class="text-xl text-center text-gray-800 mb-4">
+      Press any key to start the game
+    </h3>
+
+    <div class="container">
+      <div class="flex justify-center gap-4 m-2.5">
+        <button
+          id="red"
+          class="border-4 border-gray-950 h-[200px] w-[200px] bg-red-500 text-white text-2xl font-semibold rounded-2xl"
+        >
+          1
+        </button>
+        <button
+          id="yellow"
+          class="border-4 border-gray-950 h-[200px] w-[200px] bg-yellow-500 text-black text-2xl font-semibold rounded-2xl"
+        >
+          2
+        </button>
+      </div>
+      <div class="flex justify-center gap-4 m-2.5">
+        <button
+          id="green"
+          class="border-4 border-gray-950 h-[200px] w-[200px] bg-green-500 text-white text-2xl font-semibold rounded-2xl"
+        >
+          3
+        </button>
+        <button
+          id="blue"
+          class="border-4 border-gray-950 h-[200px] w-[200px] bg-blue-500 text-white text-2xl font-semibold rounded-2xl"
+        >
+          4
+        </button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
